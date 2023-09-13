@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import InputConHookPer from './CustomHooks/InputConHookPer';
+import AgregaReferenciaComp from './Hacer Referencia/AgregaReferenciaComp';
+import CheckoutOnlineRed from './Hooks personalizados/CheckoutOnlineRed';
+// import AccederOtrosNODOSComp from './Manipular el Dom con Ref/AccederOtrosNODOSComp';
+import DesplazarceAUnElementoRef from './Manipular el Dom con Ref/DesplazarceAUnElementoRef';
+import EnfocarTexto from './Manipular el Dom con Ref/EnfocarTexto';
+import EffectoSecundario from './Use Effects/EffectoSecundario';
+import EnfocarInputconClick from './Use Effects/EnfocarInputconClick';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Hola Mundo</h1>
+     {/* <InputConHookPer /> */}
+     <CheckoutOnlineRed />
+     <EnfocarInputconClick />
+     <EffectoSecundario />
+     {/* <AccederOtrosNODOSComp /> */}
+     <EnfocarTexto />
+     <DesplazarceAUnElementoRef />
+     <AgregaReferenciaComp />
+     
     </div>
   );
 }
